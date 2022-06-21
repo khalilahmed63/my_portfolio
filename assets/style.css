@@ -1,0 +1,341 @@
+*{
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif;
+  color: #272829; */
+}
+#hero{
+  /* background-color: #292b2c;  */
+}
+#hero h1{
+  font-family: "Raleway", sans-serif;
+}
+
+.profile_img img{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.top_background{
+  position: absolute;
+  width: 100%;
+}
+.yellow_div{
+  /* position: absolute; */
+  height: 590px;
+  background-color: #ffb400;
+  z-index: -6
+}
+.dark_div{
+  /* position: absolute; */
+    z-index: -6;
+    border-top: 590px solid #292b2c; 
+    border-left: 140px solid #ffb400;
+  }
+  #first_sec_dark_bg{
+    position: absolute;
+    height: 2000px;
+    width: 100%;
+    z-index: -20;
+    background-color: #292b2c; 
+    
+  }
+.about{
+  position: relative;
+  background-color: #292b2c; 
+}
+.about ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.about ul li{
+  padding: 10px 0px;
+
+}
+
+.about_heading{
+  padding: 90px 0px;
+}
+.about_heading h1{
+  position: absolute;
+  z-index: 1;
+  color: #45505b;
+  font-weight: 700px;
+  letter-spacing: 5px;
+  font-size: 82px;
+  /* line-height: 36px; */
+}
+.about_heading h2{
+  font-weight: 700px;
+  z-index: 2;
+  letter-spacing: 5px;
+  font-size: 32px;
+  /* line-height: 36px; */
+}
+#resume{
+  background-color: #292b2c; 
+}
+.fourth_section{
+  background-color: #292b2c; 
+
+}
+.fourth_section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fourth_section ul li{
+  padding: 10px 0px;
+
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.nav-menu {
+    padding: 0;
+    display: block;
+  }
+  .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+  }
+  .nav-menu a, .nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #45505b;
+    padding: 10px 18px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 50px;
+    background: #f2f3f5;
+    height: 56px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .nav-menu a i, .nav-menu a:focus i {
+    font-size: 20px;
+  }
+  .nav-menu a span, .nav-menu a:focus span {
+    padding: 0 5px 0 7px;
+    color: #45505b;
+  }
+  @media (min-width: 992px) {
+    .nav-menu a, .nav-menu a:focus {
+      width: 56px;
+    }
+    .nav-menu a span, .nav-menu a:focus span {
+      display: none;
+      color: #fff;
+    }
+  }
+  .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+    color: #fff;
+    background: #ffb400;
+  }
+  .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
+    color: #fff;
+  }
+  .nav-menu a:hover, .nav-menu li:hover > a {
+    width: 100%;
+    color: #fff;
+  }
+  .nav-menu a:hover span, .nav-menu li:hover > a span {
+    display: block;
+  }
+  
+/**
+* Mobile Navigation 
+*/
+.mobile-nav-toggle {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 28px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 0;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 5px;
+  }
+  .mobile-nav-toggle i {
+    color: #45505b;
+  }
+  
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+  .mobile-nav-active #header {
+    left: 0;
+  }
+  .mobile-nav-active .mobile-nav-toggle {
+    color: #fff;
+    background-color: #0563bb;
+  }
+  /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+  }
+  @media (max-width: 992px) {
+    #header {
+      width: 300px;
+      background: #fff;
+      border-right: 1px solid #e6e9ec;
+      left: -300px;
+    }
+  }
+  
+  
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #hero img{
+    border-radius: 30px;
+  }
+  @media (min-width: 992px) {
+    #hero {
+      padding-left: 50px;
+    }
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #ffb400;
+  }
+  #hero p {
+    /* color: #45505b; */
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  #hero p span {
+    color: #0563bb;
+    letter-spacing: 1px;
+  }
+  #hero .social-links {
+    margin-top: 30px;
+  }
+  #hero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+  #hero .social-links a:hover {
+    color: #0563bb;
+  }
+  @media (max-width: 992px) {
+    #hero {
+      text-align: center;
+    }
+    #hero h1 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+    #hero p {
+      margin-top: 10px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+
+  @media (max-width: 414px) {
+   #hero{
+    background-color: #292b2c; 
+    height: 100%;
+    }
+    
+    #hero img{
+      border-radius: 250px;
+    }
+    .about_heading h1{
+      font-size: 62px;
+      /* line-height: 36px; */
+    }
+    .profile_img{
+      padding: 30px;
+    }
+    .profile_img img{
+      border: 7px solid #404040;
+    }
+    .top_background{
+      display: none;
+    }
+    .yellow_div, .dark_div{
+      display: none;
+    }
+  }
+
+  
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #0563bb;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover {
+  background: #0678e3;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* ///// */
+
+/* ///// */

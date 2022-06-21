@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-link a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover, .active{
+    color:#000000!important;
+    font-weight: bold!important;
+}
+.btn-primary{
+    background-color: #006696;
+}
+.feature{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.feature:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 10px;
+    transform: scale(1.1);
+}
+.navbar{
+    overflow: hidden;
+}
+.header nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.active{
+    
+    font-weight: bold;
+}
+
+.fas{
+    color: #006696;
+}
+.social-links li i:hover{
+    color: #006696;
+}
+.funfacts{
+    background: url(images/leone3.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.fact-box{
+    padding: 25px 30px;
+    background-color: rgba(255,255,255,0.8);
+}
+.fact-box h2{
+    color: #006696;
+    font-size: 45px;
+}
+.fact-box h5{
+    color:#000;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 82.5%;
+    }
+  }
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 72.5%;
+    }
+  }
+
+

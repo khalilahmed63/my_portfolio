@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- style stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Digiventic</title>
+  </head>
+  <body>
+    
+      <!-- navbar start -->
+      <header>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-white  shadow-sm  p-0 m-0" aria-label="Twelfth navbar example" style="animation: smoothScroll 1s forwards;" >
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/digiventic new.png" alt="logo" width="60rem" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse justify-content-end " id="navbarsExample10">
+                <ul class=" nav navbar-nav ml-auto ">
+                  <!-- Home -->
+                  <li class="nav-item"> <a class="nav-link fw-bold  active" href="#home">Home</a> 
+                  </li>
+                  <li class="nav-item"> <a class="nav-link fw-bold" href="#services">Services</a> 
+                  </li>
+                  <li class="nav-item"> <a class="nav-link fw-bold" href="#about">About</a> 
+                  </li>
+                
+                  <li class="nav-item"> <a class="nav-link fw-bold" href="#projects">projects</a> 
+                  </li>
+                  <li class="nav-item"> <a class="nav-link fw-bold" href="#contact">contect us</a> 
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+      <!-- navbar end -->
+<!-- /////////// Start  -->
+      <div class="container" id="home">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            
+            <div class="col-lg-6 mb-5  " >
+              <h2 class="pb-3 fw-bold " style="letter-spacing: 2px; ">We're Building Modern and High Quality Software</h2>
+              <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <div class="d-grid gap-2 d-md-flex ">
+              <a href="#about" type="button" class="btn btn-primary btn-lg px-4 gap-3">More About</a>
+             
+              <a href="#contact" type="button" class="btn btn-outline-secondary btn-lg px-4">Contect</a>
+              </div>
+            </div>
+            <div class="col-10 col-sm-8 col-lg-6 mx-auto">
+              <img src="images/banner/06.png" class="d-block mx-lg-auto img-fluid" alt="imags" width="700" height="300" loading="lazy">
+            </div>
+        </div>
+      </div>
+<!-- //////  end -->
+      
+
+    <!-- crousel start -->
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x500/?laptop,mac" class="img-fluid d-block w-100" alt="..." >
+            <!-- <div class="container">
+              <div class="carousel-caption ">
+                  <h1>Example headline.</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div> -->
+          </div>
+          <div class="carousel-item" >
+            <img src="https://source.unsplash.com/1600x500/?ipad" class="img-fluid d-block w-100" alt="..." >
+            <!-- <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div> -->
+          </div>
+          <div class="carousel-item active" >
+            <img src="https://source.unsplash.com/1600x500/?laptop,macbook" class="img-fluid d-block w-100" alt="..." >
+            <!-- <div class="container">
+              <div class="carousel-caption">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- crousel end -->
+    
+      <!-- our services section start -->
+      <div class="container  py-5 mt-5" id="services">
+        <h1 class="pb-2 border-bottom fw-bold">Our Services</h1>
+        <div class="container mt-5">
+          <div class="row gx-5 gy-4">
+
+            <div class="col-md-4">
+              <div class="feature  text-center px-3 py-4 bg-light" style="border-radius: 2rem;">
+                <div  style="font-size: 3rem;">
+                  <i class="fas fa-palette"></i>
+                </div>
+                  <h5 class="fw-bold service-link"><a href="#">WEB & GRAPHICS DESIGN </a></h5>
+                  <p>Paragraph of text beneath the heading to explain the heading. </p>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="feature  text-center px-3 py-4 bg-light" style="border-radius: 2rem;">
+                <div style="font-size: 3rem;">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                  <h5 class="fw-bold service-link"> <a href="#">WEB & MOBILE DEVELOPMENT</a></h5>
+                  <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 ">
+              <div class="feature  text-center px-3 py-4 bg-light" style="border-radius: 2rem;">
+                <div style="font-size: 3rem;">
+                    <i class="fas fa-ad"></i>
+                </div>
+                  <h5 class="fw-bold service-link"><a href="#"> SOCIAL MEDIA MARKETING </a></h5>
+                  <p>Paragraph of text beneath the heading to explain the heading. </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="feature  text-center px-3 py-4 bg-light " style="border-radius: 2rem;">
+                <div style="font-size: 3rem;">
+                    <i class="fas fa-crop-alt"></i>
+                </div>
+                  <h5 class="fw-bold service-link"><a href="#"> RESPONSIVE DESIGN </a></h5>
+                  <p>Paragraph of text beneath the heading to explain the heading. </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="feature  text-center px-3 py-4 bg-light" style="border-radius: 2rem;">
+                <div style="font-size: 3rem;">
+                    <i class="fas fa-magic"></i>
+                </div>
+                  <h5 class="fw-bold service-link"><a href="#">CREATIVE IDEAS</a></h5>
+                  <p>Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
+    
+            </div>
+
+            <div class="col-md-4 ">
+              <div class="feature  text-center px-3 py-4 bg-light" style="border-radius: 2rem;">
+                <div  style="font-size: 3rem;">
+                    <i class="fas fa-users"></i>
+                </div>
+                  <h5 class="fw-bold service-link"><a href="#"> CUSTOMER SUPPORT</a> </h5>
+                  <p>Paragraph of text beneath the heading to explain the heading. </p>
+               </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      <!-- our services section end -->
+  <!-- centered hero start -->
+  <div class="container" id="about">
+    <div class=" py-5 my-5 text-center ">
+      <h1 class="display-5 fw-bold">Who we are</h1>
+      <div class="col-lg-10 mx-auto">
+        <p class="lead mb-4">Digiventic is a digital Company that collaborates with the local business pinpoints business challenge they are facing marketplace to achieve their business targets.Systems Limited Crosses PKR 100bn in Market Capitalization
+          Pakistan’s most valuable IT Company has a current share price of at PKR 740.93, which values PKR 102bn in market capitalization.</p>
+      </div>
+    </div>
+  </div>
+  <!-- centered hero end -->
+
+
+    <!-- image and text section start -->
+   <!-- <div class="container">
+    <div class="row featurette py-5">
+      <div class="col-md-7 px-4">
+        <h2 class="featurette-heading pb-2">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+   </div> -->
+    <!-- iamge and text section end -->
+
+ 
+  
+     
+    <!-- /////////// -->
+    <div class="container shadow funfacts parallax-1">
+        <div class="container ">
+            <div class="row">
+                <div class="col-sm-3 margin-bottom30 text-center">
+                    <div class="fact-box">
+                        <h2>654</h2>                          
+                        <h5 class="fw-bold">Happy Clients</h5>
+                        <span class="border-line"></span>
+                    </div>
+                </div><!--fact cols-->
+                <div class="col-sm-3 margin-bottom30 text-center">
+                    <div class="fact-box">
+                        <h2>832</h2>                          
+                        <h5 class="fw-bold">Projects finish</h5>
+                        <span class="border-line"></span>
+                    </div>
+                </div><!--fact cols-->
+                <div class="col-sm-3 margin-bottom30 text-center">
+                    <div class="fact-box">
+                        <h2>800</h2>                          
+                        <h5 class="fw-bold">Pizza ordered </h5>
+                        <span class="border-line"></span>
+                    </div>
+                </div><!--fact cols-->
+                <div class="col-sm-3 margin-bottom30 text-center">
+                    <div class="fact-box">
+                        <h2>750</h2>                          
+                        <h5 class="fw-bold">Cups of coffee</h5>
+                        <span class="border-line"></span>
+                    </div>
+                </div><!--fact cols-->
+
+            </div>
+        </div>
+    </div>
+    <!-- ////////// -->
+
+    <!-- card section start -->
+    <div class="container px-4 py-5 mt-5" id="projects">
+      <!-- <h2 class="pb-2 border-bottom">Projects</h2> -->
+      <h1 class="pb-2 border-bottom fw-bold">Projects</h1>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+        <div class="col">
+          <div class=" overflow-hidden text-white bg-dark " style=" max-height: 14rem; min-height: 14rem; border-radius: 3rem;">
+            <div class="d-flex flex-column  p-5 text-white ">
+              <h2 class=" fw-bold">AZAD , Freelancing plateform</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="  overflow-hidden text-white bg-dark " style=" max-height: 14rem; min-height: 14rem; border-radius: 3rem;">
+            <div class="d-flex flex-column  p-5 text-white">
+              <h2 class="fw-bold">Learning management (LMS)</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="  overflow-hidden text-white bg-dark  " style=" max-height: 14rem; min-height: 14rem; border-radius: 3rem;">
+            <div class="d-flex flex-column p-5  text-shadow-1">
+              <h2 class=" fw-bold">Task Management System (TSM)</h2>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- card section end -->
+
+   
+
+    <!-- contect form start -->
+    <div class="container-fluid " style="background-color: #014f74;">
+      <div class="container py-5" id="contact">
+        <div class="col-md-6 mx-auto">
+         <form class="p-3 p-md-5 shadow bg-white" >
+           <h1> <i class="far fa-envelope"></i> Contact us</h1>
+           <h5>Get in touch</h>
+           <div class="form-group">
+             <input type="email" class="form-control my-3 c" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name" style="background-color: #eee;">
+             <input type="email" class="form-control my-3 c" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" style="background-color: #eee;">
+             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+           </div>
+           <div class="form-group">
+             <!-- <input type="password" class="form-control my-3 py-2" id="exampleInputPassword1" placeholder="Password"> -->
+             <textarea name="message" id="" cols="30" rows="6"class="form-control" placeholder="Enter your message" style="background-color: #eee;"> </textarea>
+           </div>
+           <div class="form-group form-check">
+             <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+             <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+           </div>
+           <button type="submit" class="btn btn-primary">Submit</button>
+         </form>
+        </div>
+       </div>
+    </div>  
+    <!-- contect form end -->
+
+  <!-- footer start -->
+  <div class="container border-top">
+    
+    <footer class="pt-5">
+      <div class="row">
+        
+        
+        <div class=" col-sm-12 col-md-6">
+          <h4>Info</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              Address: <b>C 49 HADDI NAGAR QASIMABAD  HYDERABAD</b>
+              
+            <li class="nav-item mb-2">Email: <b> info@Digiventic.com</b>
+            </li>
+            <li class="nav-item mb-2">Phone: <b> +923023734499</b>
+            </li>
+          </ul>
+      </div>
+
+
+      <div class=" col-sm-12 col-md-6">
+        <h5>Links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-muted">services</a></li>
+          <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-muted">about</a></li>
+         
+        </ul>
+      </div>
+        
+      </div>
+  
+      <div class="d-flex justify-content-between pt-4 my-4 border-top">
+        <p>© 2021 Digiventic, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex social-links" style="font-size: 1.5rem;">
+          <li class="ms-3 "  ><a  style="color: #3b5998; height: 3.6rem;" class="px-2 " href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="ms-3 " ><a style="color: #3f729b; height: 3.6rem;" class="px-2 " href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="ms-3 "><a style="color: #0e76a8; height: 3.6rem;" class="px-2 " href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li class="ms-3 "><a style="color: #00acee; height: 3.6rem;" class="px-2 " href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <!-- footer end -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+// DOMContentLoaded  end
+
+    </script>
+   
+    
+  </body>
+</html>

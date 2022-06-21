@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #717171;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.active{
+    color: black;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: black;
+}
+
+.hero_section{
+    margin-top: 60px;
+}
+
+.hero_p{
+    padding: 20px 145px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.first_section{
+    position: relative;
+}
+.first_sec_bg_img{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 500px;
+}
+.getstartedbtn{
+    border: none;
+    border-radius: 20px; 
+    background-color:#50FF96; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.getstartedbtn:hover{
+    background-color:#50FF96; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px;  
+}
+.singn_up_now_btn{
+    margin-right: 200px;
+    border: none;
+    border-radius: 20px; 
+    background-color:#50FF96; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.singn_up_now_btn:hover{
+    background-color:#50FF96; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px;  
+}
+.first_left_blue_tag p{
+    color:#045010;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  
+}
+.first_left_blue_tag{
+    background-color: #FFDF35;
+    width: 70%;
+    padding: 5px;
+    border-radius: 0px 40px 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+.second_section{
+    height: 100%;
+    margin-top: 80px;
+}
+.youtube_video{
+    border: 2px solid rebeccapurple;
+    width:850px;
+    height:400px;
+}
+.youtube_video_iframe{
+    margin: 100px 10px;
+}
+.second_right_blue_tag{
+    position: absolute;
+    z-index: 4;
+    background-color: #FFDF35;
+    width: 70%;
+    padding: 5px;
+    border-radius: 40px 0px 0px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.second_right_blue_tag p{
+    color:#045010;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+}
+
+.third_section{
+    background-color: #d5ffda;
+    /* background-image: url('assets/images/Rectangle 69.png'); */
+    /* background-repeat: no-repeat; */
+    /* padding: 40px 0px; */
+}
+.fourth_section{
+    position: relative;
+    position: relative;
+    padding: 80px 0px;
+}
+.fourth_section img{
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+    z-index: -4;
+}
+.fourth_section P{
+    color: #045010;
+}
+
+.fourth_section_image img{
+    position: absolute;
+    top: 220px;
+    right: 130px;
+    width: 700px;
+    height: 350px;
+}
+.fourth_section_headings{
+    margin-left: 20px;
+    
+}
+.fourth_section_headings h1{
+    font-size: 70px;
+    color:#7ACCB6;    
+    
+}
+.fourth_section_btn_text{
+    margin-top: 150px;
+}
+.fourth_section_btn_text p{
+    font-size: 24px;
+    color: #045010;
+    /* margin-right: 40px; */
+}
+.donate_now_btn{
+    margin-left: 40px;
+    border: none;
+    border-radius: 20px; 
+    background-color:#50FF96; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.fifth_section{
+    position: relative;
+    background-color:#d5ffda; 
+
+}
+.fifth_section_img{
+    z-index: 3;
+}
+
+.mobile_app_btn{
+    position: absolute;
+    right: 40px;
+    bottom: 60px;
+    z-index: 5;
+}
+.app_btn{
+    transition: all 0.3s ease-in-out;
+}
+.app_btn:hover{
+    transform: scale(1.1);
+}
+
+.rectangle_img_1{
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    z-index: 2;
+    
+}
+.rectangle_img_2{
+    position: absolute;
+    right: 0px;
+    top: -80px;
+    z-index: 2;
+
+}
+.google-play-badge img{
+    height: 80px;
+}
+.apple-play-badge img{
+    height: 55px; 
+    margin-top: 12px;
+}
+.sixth_section{
+    position: relative;
+    padding-top: 60px;
+}
+.sixth_section .six_sec_bg_image{
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    z-index: -4;
+}
+
+.book_cards{
+    margin: 80px 0px;
+    width: 100%;
+}
+
+
+.first_image{
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+}
+.first_image:hover{
+    transform: scale(1.1);
+}
+.second_image{
+    margin-top: 90px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+.second_image:hover{
+    z-index: 3;
+    transform: scale(1.1);
+}
+
+.third_image{
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+.third_image:hover{
+    transform: scale(1.1);
+}
+.fourth_image{
+    margin-top: 90px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+.fourth_image:hover{
+    z-index: 3;
+    transform: scale(1.1);
+}
+.view_more_btn{
+    position: relative;
+    margin-left: 40px;
+    border: none;
+    border-radius: 20px; 
+    background-color:#50FF96; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.view_more_btn:hover{
+    background-color:#50FF96; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px;  
+}
+
+.seventh_section{
+    position: relative;
+}
+.seventh_section img{
+    width: 100%;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.useful_links{
+    padding-left: 50px;
+}
+.nav-link{
+    cursor: pointer;
+}
+.social_icons{
+    color: red;
+}
+
+.footer_logo img{
+    height: 80px;
+    width: 200px;
+}
+.footer_links:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px;  
+}
+
+@media (min-width: 0px) and (max-width: 820px) {
+    .fourth_section_image img {
+        position: absolute;
+        top: 320px;
+        right: 10px;
+        width: 400px;
+        height: 200px;
+    }
+    .fourth_section_image{
+        display: none;
+    }
+    .second_image {
+        margin-top: 0px;
+    }
+    .fourth_image {
+        margin-top: 0px;
+    }
+    .fourth_section_btn_text p {
+        margin-top: 10px;
+        padding: 40px;
+    }
+    
+}
+
+
+@media (min-width: 0px) and (max-width: 750px) {
+    footer{
+        background-color: #01392e;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    
+    }
+}
+
+
+
+@media (min-width: 0px) and (max-width: 414px) {
+
+    .fourth_section_headings h1{
+        font-size: 40px;    
+        
+    }
+    .fourth_section_image{
+        display: none;
+    }
+    
+    .hero_p{
+        padding: 20px 15px;
+    }
+    .singn_up_now_btn{
+        margin: 0px;
+    }
+    .useful_links{
+        padding: 10px;
+    }
+  
+    .hero_section{
+        margin-top: 0px;
+    }
+    .second_section{
+        margin-top: 40px;
+    }
+    .first_left_blue_tag p {
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }   
+    .second_right_blue_tag p {
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .youtube_video{
+        border: 2px solid rebeccapurple;
+        width:550px;
+        height:200px;
+    }
+    .donate_now_btn{
+        margin: 0;
+    }
+    .fourth_section_btn_text {
+        margin-top: 50px;
+    }
+    .rectangle_img_1 {
+      display: none;
+    }
+    .rectangle_img_2 {
+        display: none;
+    }
+    .mobile_app_btn {
+        right: 20px;
+        top: 350px;
+    }
+    .google-play-badge img{
+        height: 48px;
+    }
+    .apple-play-badge img{
+        height: 35px; 
+        margin-top: 6px;
+    }
+    .second_image{
+        margin-top: 0px;
+    }
+    .fourth_image{
+        margin-top: 0px;
+    }
+    .first_left_blue_tag{
+        width: 100%;
+    }
+    .second_right_blue_tag{
+        width: 100%;
+    }
+    .fourth_section_btn_text p {
+        margin-top: 10px;
+        padding: 0px;
+    }
+  
+}
+
