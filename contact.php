@@ -47,11 +47,10 @@ if (isset($_REQUEST['send'])) {
 
     //Username to use for SMTP authentication - use full email address for gmail
     $mail->Username = 'khalilahmed786su@gmail.com';
-    // $mail->Username = 'panhwarkhalilahmed@gmail.com';
+  
 
     //Password to use for SMTP authentication
     $mail->Password = 'kmlylmhdmpalvaao';
-    // $mail->Password = 'ckwjhdpkxmlqeebe';
 
     //Set who the message is to be sent from
     $mail->setFrom('khalilahmed786su@gmail.com', 'My Portfolio', 0);
